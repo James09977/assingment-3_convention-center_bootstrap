@@ -2,7 +2,11 @@
 Common margin
 ==================*/
 .carousel,
-#moment {
+#moment,
+#package,
+#testimonial,
+#faq,
+#footer {
     margin-top: 100px !important;
 }
 
@@ -10,10 +14,74 @@ Common margin
 /*================ 
 Explore area 
 ==================*/
+#moment h1 {
+    color: #0A0826;
+}
+
+#moment p {
+    color: #6C6C6C;
+}
+
+#moment .alert {
+    width: 30%;
+    border: none;
+}
+
+#moment .alert p {}
+
 .explore-btn {
     background-color: #3F87F5 !important;
     font-weight: bold !important;
     color: white !important;
     padding: 10px 24px !important;
 
+}
+
+/*================ 
+package area 
+==================*/
+.section-title {
+    font-size: 38px;
+    font-weight: 600;
+    color: #0A0826;
+    margin-bottom: 100px;
+}
+
+#package h5 {
+    color: #231D4F;
+}
+
+.plan-button {
+    background-color: #f6e5f0 !important;
+    border: none !important;
+    border-radius: 25px !important;
+    color: #3F87F5 !important;
+}
+
+.fa-regular {
+    font-size: 18px;
+    background-color: #5243c23c;
+    color: #5243C2;
+}
+
+
+.card-3 {
+    background-color: #3F87F5 !important;
+    border-radius: 15px !important;
+}
+
+
+/*================ 
+textimonial area 
+==================*/
+.testimonial {
+    width: 360px !important;
+}
+
+
+/*================ 
+footer area 
+==================*/
+#footer {
+    height: 280px;
 }
